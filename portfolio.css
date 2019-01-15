@@ -1,0 +1,94 @@
+body {
+  background: #0074d9;
+  color: white;
+}
+
+/* colors */
+
+.red {
+  color: #ff4136;
+}
+
+.orange {
+  color: #ff851b;
+}
+
+.black {
+  color: #111111;
+}
+
+.green {
+  color: #2ecc40;
+}
+
+.yellow {
+  color: #ffdc00;
+}
+
+.fuchsia {
+  color: #f012be;
+}
+
+section {
+  display: flex;
+}
+
+aside {
+  flex: 1;
+}
+
+article {
+  flex: 4;
+}
+
+/* navbar styles */
+nav {
+  margin-top: 44px;
+}
+nav .active a {
+  color: #ffdc00;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav a:hover {
+  color: #111;
+  font-size: 24px;
+}
+
+/* paragraph styles */
+p {
+  font-size: 32px;
+}
+
+h1 {
+  color: #2ecc40;
+  font-size: 44px;
+}
+h2 {
+  font-weight: 100;
+  color: #ff851b;
+}
+
+li {
+  font-size: 32px;
+}
+
+b {
+  color: #ff4136;
+}
